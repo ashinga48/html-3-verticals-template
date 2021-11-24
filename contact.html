@@ -1,0 +1,117 @@
+  
+<!--contact page
+this page will be loaded through ajax into contact box in index -->
+
+<div class="firsthalf blue">
+    <div id="map" class="oblurlay-contents"></div>
+
+    <div class=" infobox">
+        <div class="arrow"></div>
+        <p class="dyn_data">
+
+        </p>
+      </div>
+</div>
+
+<div class="secondhalf ">
+
+<!--    <nav class="z-depth-0">
+        <div class="nav-wrapper white ">
+            <a href="#" class="brand-logo right" >
+                <img src="img/b1.png" />
+            </a>
+        </div>
+      </nav>-->
+
+    <h5 class="title grey-text darken-1">Contact Us</h5>
+
+    <img class="contact_map" src="img/map.png" alt="" usemap="#Map"  />
+    <map name="Map" id="Map">
+        <area alt="" title="1" href="#" shape="rect" id="items" coords="313,147,342,189" />
+        <area alt="" title="2" href="#" shape="rect" id="items" coords="390,115,419,158" />
+    </map>
+    
+    <div class="row" id="Map">
+        <a title="1" id="items" class="waves-effect waves-light btn btn-flat col s6 z-depth-0">Office Location TANZANIA</a>
+        <a title="2" id="items" class="waves-effect waves-light btn btn-flat col s6 z-depth-0 ">Office Location INDIA</a>
+    </div>
+    
+    <div class="row grey lighten-3">
+        <form class="col s12" id="contactform">
+
+            <div class="row"></div>
+          <div class="row no-margin">
+            <div class="input-field col s6 ">
+                <input name="name" id="name" type="text" length="25" class="validate ">
+              <label for="name" class="">Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input name="email" id="email" type="email" data-error="wrong" data-success="right" class="validate ">
+              <label for="email" class="">E-mail</label>
+            </div>
+          </div>
+          <div class="row no-margin">
+            <div class="input-field col s12">
+              <textarea name="message" id="textarea1" class="materialize-textarea " length="125" ></textarea>
+              <label for="textarea1" class="">Message</label>
+            </div>
+          </div>
+
+            <div class="row no-margin">
+            <div class="input-field col s12">
+             <input class="btn waves-effect waves-light grey z-depth-0 formsubmit" type="submit" value="Send Message" name="action" />
+<!--            <i class="material-icons right">send</i>-->
+                    <div class="preloader-wrapper small active prepre hide">
+                      <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                </div>
+          </div>
+
+            <div class="row"></div>
+        </form>
+      </div>
+
+
+        <!--address--> 
+        <div class="row ">
+            <div class="col s6 right_border contactdata">
+                <h6>Office Location TANZANIA</h6>
+                <p><small>B2203</small></p>
+                <p><small>22nd Floor, Viva Towers.</small></p>
+                <p><small>Ali Hassana Mwiyini Road.</small></p>
+                <p><small>PO BOX – 7177.</small></p>
+                <p><small>Dar es Salaam – Tanzania.</small></p>
+                <p><small class="email">Email: corporate@ynotss.com</small></p>
+
+            </div>
+            <div class="col s6 contactdata">
+                <h6>Office Location INDIA</h6>
+                <p><small>YNOT Software Solutions</small></p>
+                <p><small>Sri Surya Heights,</small></p>
+                
+                  <p><small>Chennupati Rama Kotaiah Street</small></p>
+                  <p><small>Patamata Lanka -  520010 </small></p>
+                  <p><small>Vijayawada , Andhra Pradesh </small></p>
+                 
+              
+                <p><small class="email">Email: corporate@ynotss.com</small></p>
+            </div>
+        </div>
+
+
+        <div class="grey lighten-0 center-align footer2 white-text">
+            <small>Copyright @2016 YNOT Software Solutions</small>
+        </div>
+
+</div>
+        
